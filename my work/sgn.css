@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../html2/main.jfif);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../html2/main.jfif);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.SignUpbox{
+width: 460px;
+height: 670px;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../html2/login\ back.jpg);
+background-size: cover;
+background-position: center;
+color: #fff;
+top: 62%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 30px 70px;
+border: 5px solid black;
+}
+
+.avatar{
+
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+}
+
+.h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.SignUpbox  p{
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+}
+
+.SignUpbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.SignUpbox input[type="text"],input[type="text"],input[type="text"],input[type="text"],input[type="text"],input[type="password"]
+{
+
+   border: none;
+   border-bottom: 1px solid white;
+   background: transparent;  
+   outline: none;
+   height:  40px;
+   color: white;
+   font-size: 16px;
+}
+ .SignUpbox input[type="submit"]
+{
+    border:none;
+    outline:none;
+    position: absolute;
+    left:25%;
+    top:92%;
+    width: 50%;
+   border:2px solid black;
+    height:37px;
+    background: black;
+    color: gray;
+    font-size:26px;
+    box-shadow:0 5px gray;
+    border-radius: 40px;
+    
+}
+.SignUpbox input[type="submit"]:hover
+{
+    cursor:pointer;
+    background:gray;
+    color:black;
+}
+.mainsub ul{
+  padding:36px;
+  position: absolute;
+  left:43.9%;
+  top:109.5%;
+  list-style: none;
+}
+.mainsub ul li{
+  float:left;
+}
+.mainsub ul li a{
+  width:197px;
+  display:block;
+  border-radius:40px;
+  border:2px solid black;
+  box-shadow:0 5px gray;
+  background:black;
+  padding:8px 16px;
+  position:absolute;
+  left:-40%;
+  top:-79%;
+  font-size:20px;
+  text-decoration: none;
+  color:gray;
+  text-align:center;
+}
+.mainsub ul li a:hover{
+  background-color:gray;
+  color:black;
+  text-decoration: none;
+}
